@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: regcred
+type: Opaque
+data:
+  username: BASE64YOURUSERNAME
+  password: BASE64YOURPASSWORD
+  email: BASE64YOUREMAIL
